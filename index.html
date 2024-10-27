@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudra Gujarathi - Portfolio</title>
+    
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/history.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/certificates.css">
+    <link rel="stylesheet" href="css/contact.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="scripts/index.js"></script>
+</head>
+<body>
+    <section id="navbar">
+        <div class="name">Rudra Gujarathi</div>
+        <div class="menu-icon" onclick="toggleMenu()" style="padding-right: 30px;">☰</div>
+        <div class="items">
+            <div class="item"><a href="#about">About</a></div>
+            <div class="item"><a href="#history">History</a></div>
+            <div class="item"><a href="#projects">Projects</a></div>
+            <div class="item"><a href="#skills">Skills</a></div>
+            <div class="item"><a href="#certificates">Certificates</a></div>
+            <div class="item"><a href="#contact">Contact</a></div>
+        </div>
+        <div class="links">
+            <div class="link"><a href="http://www.linkedin.com/in/rudra-gujarathi" target="_blank"><i class="fab fa-linkedin"></i></a></div>
+            <div class="link"><a href="http://www.github.com/rudra-23" target="_blank"><i class="fab fa-github"></i></a></div>
+            <div class="link"><a href="http://www.Kaggle.com/rudragujarathi" target="_blank"><i class="fab fa-kaggle"></i></a></div>
+        </div>
+    </section>
+    
+
+    <section id="about">
+        <div class="details">
+            <div class="name">
+                Hello, I'm <span style="color: maroon;"> Rudra</span>,
+            </div>
+            <div class="info">
+                I'm a software developer passionate about creating robust web architectures and delivering scalable, secure cloud-based solutions.
+            </div>
+            <a class="resume" href="/assets/Rudra_resume.pdf" target="_blank">
+                Resume
+            </a>
+        </div>
+        <div class="photo">
+            <img src="assets/photo.png" alt="" srcset="">
+        </div>
+    </section>
+
+    <section id="history">
+        <div class="title">Education & Experience.</div>
+
+        <div class="history-container">
+            <div class="education">
+                <div class="title">Education</div>
+                <div class="content">
+                    <div class="item">
+                        <div class="degree">Master of Science</div>
+                        <div class="university">Universiy of Southern California</div>
+                        <div class="location">Los Angeles, CA</div>
+                        <div class="dates">Aug 2022 - May 2024</div>
+                        <div class="gpa">GPA - <span style="font-weight: bold;">3.95 </span> /4.</div>
+                    </div>
+        
+                    <div class="item">
+                        <div class="degree">Bachelor of Technology</div>
+                        <div class="university">SRM Institute of Science and Technology</div>
+                        <div class="location">Chennai, India</div>
+                        <div class="dates">Jul 2018 - May 2022</div>
+                        <div class="gpa">GPA - <span style="font-weight: bold;">9.63 </span> /10.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience">
+                <div class="title">Experience</div>
+                <div class="content">
+                    <div class="item">
+                        <div class="company">DeepUSC Lab</div>
+                        <div class="position">Software Engineer Intern</div>
+                        <div class="dates">May 2023 - Aug 2023</div>
+                        <div class="responsiblities">I contributed to the development of <b>Ablator, a deep learning model toolkit</b>, by <b>writing tests</b> that <b>improved code coverage</b> to 88% and <b>developing tutorials</b> on model training and hyperparameter optimization. Additionally, I <b>fixed over 10 framework issues</b> to enhance its functionality and stability.
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="company">Spade EMS</div>
+                        <div class="position">Software Engineer Intern</div>
+                        <div class="dates">Nov 2020 - Feb 2021</div>
+                        <div class="responsiblities">I <b>led a team</b> of software interns to <b>deliver the company's new service page</b>, focusing on template selection, component design, and front-end development for <b>enhanced styling and animations</b>. Additionally, I <b>collaborated with the team</b> to develop the website's portfolio section, <b>resolving bugs</b> and ensuring improved functionality.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "projects">
+        <div class="title">Projects.</div>
+
+        <div class="projects-container">
+            <div class="project">
+                <div class="image">
+                    <img class = "project-image" src="assets/project1.jpeg" alt="" srcset="">
+                </div>
+                <div class="title">ShopEase</div>   
+                <div class="description">E-commerce REST API using Node.js, Express, and MongoDB with authentication and authorization.</div>
+                <div class="link"><a href="https://github.com/Rudra-23/E-commerce-Server" target="_blank"><i class="fab fa-github"></i></a></div>
+            </div>      
+            <div class="project">   
+                <div class="image">
+                    <img class = "project-image" src="assets/project2.jpeg" alt="" srcset="">
+                </div>
+                <div class="title">BatchDB</div>
+                <div class="description">Memory-efficient relational database system using Python and Pandas for handling large datasets.</div>
+                <div class="link"><a href="https://github.com/Rudra-23/BatchDB" target="_blank"><i class="fab fa-github"></i></a></div>
+            </div>
+            <div class="project">
+                <div class="image">
+                    <img class = "project-image" src="assets/project3.jpeg" alt="" srcset="">
+                </div>
+                <div class="title">Event Explorer</div>      
+                <div class="description">Event search platform available as an Android app and web application, using Java, Angular, and GCP.</div>
+                <div class="link"><a href="https://github.com/Rudra-23/Event-Finder" target="_blank"><i class="fab fa-github"></i></a></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <div class="title">Skills.</div>
+        <div class="skills-container">
+            <div class="skills-category">
+                <div class="category-title">Languages</div>
+                <div class="skills-list">
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">C</div>
+                    <div class="skill-item">C++</div>
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">TypeScript</div>
+                    <div class="skill-item">SQL</div>
+                    <div class="skill-item">HTML</div>
+                    <div class="skill-item">CSS</div>
+                    <div class="skill-item">NoSQL</div>
+                    <div class="skill-item">Node.js</div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <div class="category-title">Frameworks</div>
+                <div class="skills-list">
+                    <div class="skill-item">Angular</div>
+                    <div class="skill-item">React</div>
+                    <div class="skill-item">Flask</div>
+                    <div class="skill-item">TensorFlow</div>
+                    <div class="skill-item">PyTorch</div>
+                    <div class="skill-item">Spring Boot</div>
+                    <div class="skill-item">Express</div>
+                    <div class="skill-item">REST</div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <div class="category-title">Tools & Technologies</div>
+                <div class="skills-list">
+                    <div class="skill-item">Git</div>
+                    <div class="skill-item">AWS</div>
+                    <div class="skill-item">Pandas</div>
+                    <div class="skill-item">Ray</div>
+                    <div class="skill-item">NLTK</div>
+                    <div class="skill-item">Matplotlib</div>
+                    <div class="skill-item">Seaborn</div>
+                    <div class="skill-item">Docker</div>
+                    <div class="skill-item">Android Studio</div>
+                    <div class="skill-item">PySpark</div>
+                    <div class="skill-item">JWT</div>
+                    <div class="skill-item">Multithreading</div>
+                    <div class="skill-item">JUnit</div>
+                    <div class="skill-item">Mockito</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <div class="title">Certificates.</div>
+        <div class="certificates-container">
+            <div class="certificate">
+                <div class="certificate-image">
+                    <img src="assets/aws.jpg" alt="AWS Certification">
+                </div>
+                <div class="certificate-details">
+                    <div class="certificate-title">AWS Certified Solutions Architect</div>
+                    <div class="certificate-issuer">Amazon Web Services (AWS)</div>
+                    <div class="certificate-date">Issued: Sept, 20th 2024</div>
+                </div>
+            </div>
+            <div class="certificate">
+                <div class="certificate-image">
+                    <img src="assets/infosys.jpg" alt="Infosys Certification">
+                </div>
+                <div class="certificate-details">
+                    <div class="certificate-title">Infosys Certified Programmer</div>
+                    <div class="certificate-issuer">Infosys</div>
+                    <div class="certificate-date">Issued: April, 18th 2021</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="footer-container">
+            <div class="footer-title">Get in Touch</div>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email: <a href="mailto:rudra.gujarathi123@gmail.com" target="_blank">rudra.gujarathi123@gmail.com</a></span>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn: <a href="https://www.linkedin.com/in/rudra-gujarathi/" target="_blank">Rudra Gujarathi</a></span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>Phone: <a href="tel:+12134328697" target="_blank">(213)-432-8697</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        
+</body>
+</html>

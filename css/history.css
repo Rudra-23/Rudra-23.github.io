@@ -1,0 +1,102 @@
+#history {
+    display: flex;
+    flex-direction: column;
+    background-color: #FBF8CC;
+    padding: 50px 20px;
+}
+
+#history .title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #474306;
+    margin-bottom: 30px;
+}
+
+.education, .experience {
+    background-color: #f9f5c5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    margin: 0 10px;
+}
+
+#history .education .title, #history .experience .title {
+    color: #03045E;
+}
+
+#history .history-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.content .item {
+    margin-bottom: 20px;
+    border-left: 4px solid #03045E;
+    padding-left: 10px;
+}
+
+.education .title, .experience .title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #474306;
+    margin-bottom: 20px;
+}
+
+.degree, .position {
+    font-size: 22px;
+    font-weight: 700;
+    color: #03045E;
+}
+
+.university, .company {
+    font-size: 18px;
+    font-weight: 400;
+    color: #474306;
+    margin-top: 5px;
+}
+
+.location, .dates {
+    font-size: 16px;
+    font-weight: 400;
+    color: #03045E;
+    margin-top: 5px;
+}
+
+.gpa, .responsiblities {
+    font-size: 16px;
+    font-weight: 400;
+    color: #474306;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    #history .history-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .education, .experience {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #history .title {
+        font-size: 28px;
+    }
+
+    .education .title, .experience .title {
+        font-size: 24px;
+    }
+
+    .degree, .position {
+        font-size: 20px;
+    }
+
+    .university, .company, .location, .dates, .gpa, .responsiblities {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,104 @@
+#skills {
+    background-color: #FBF8CC;
+    padding: 50px 20px;
+}
+
+#skills .title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #474306;
+    margin-bottom: 30px;
+}
+
+.skills-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skills-category {
+    width: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.category-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #03045E;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.skill-item {
+    background-color: #F7F197;
+    color: #03045E;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.skills-category:nth-child(1) .skill-item:nth-child(odd) {
+    background-color: #F5EE84; 
+    color: #03045E; 
+}
+
+.skills-category:nth-child(1) .skill-item:nth-child(even) {
+    background-color: #FBF8CC;
+    color: #474306;
+}
+
+.skills-category:nth-child(2) .skill-item:nth-child(odd) {
+    background-color: #F7F197;
+    color: #03045E;
+}
+
+.skills-category:nth-child(2) .skill-item:nth-child(even) {
+    background-color: #FBF8CC;
+    color: #474306;
+}
+
+.skills-category:nth-child(3) .skill-item:nth-child(odd) {
+    background-color: #FBF8CC;
+    color: #03045E;
+}
+
+.skills-category:nth-child(3) .skill-item:nth-child(even) {
+    background-color: #F7F197;
+    color: #474306;
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    filter: brightness(1.05);
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-category {
+        width: 80%;
+    }
+}
